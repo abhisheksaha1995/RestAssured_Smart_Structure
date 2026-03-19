@@ -30,7 +30,7 @@ public class LoginAPI {
 	    }
 	    
 	    @Test
-	    public void invalidPasswordTest() {
+	    public void invalidPasswordTests() {
 
 	        RestAssured.config = RestAssured.config()
 	        .encoderConfig(EncoderConfig.encoderConfig()
