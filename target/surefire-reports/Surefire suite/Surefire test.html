@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>TestNG:  Default test</title>
+<title>TestNG:  Surefire test</title>
 <link href="../testng.css" rel="stylesheet" type="text/css" />
 <link href="../my-testng.css" rel="stylesheet" type="text/css" />
 
@@ -53,13 +53,13 @@ function toggleAllBoxes() {
 
 </head>
 <body>
-<h2 align='center'>Default test</h2><table border='1' align="center">
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 21 13:35:23 IST 2026</td>
+<td>Started on:</td><td>Tue Apr 21 13:30:33 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>4 seconds (4881 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5288 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,30 +76,55 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='resrassuredTests.LogoutTest.testDoubleLogout()'><b>testDoubleLogout</b><br>Test class: resrassuredTests.LogoutTest<br>Test method: TC04: Verify logout behavior with an already used token (Double Logout)</td>
+<td title='resrassuredTests.LoginTest.testSuccessfulLogin_Form()'><b>testSuccessfulLogin_Form</b><br>Test class: resrassuredTests.LoginTest<br>Test method: TC01: Verify successful login (Form)</td>
 <td></td>
-<td>0</td>
-<td>resrassuredTests.LogoutTest@692f203f</td></tr>
+<td>2</td>
+<td>resrassuredTests.LoginTest@4c40b76e</td></tr>
 <tr>
-<td title='resrassuredTests.LogoutTest.testSuccessfulLogout()'><b>testSuccessfulLogout</b><br>Test class: resrassuredTests.LogoutTest<br>Test method: TC01: Verify successful logout with valid token</td>
+<td title='resrassuredTests.LoginTest.testResponseTime()'><b>testResponseTime</b><br>Test class: resrassuredTests.LoginTest<br>Test method: TC05: Performance - Response Time</td>
 <td></td>
 <td>0</td>
-<td>resrassuredTests.LogoutTest@692f203f</td></tr>
+<td>resrassuredTests.LoginTest@4c40b76e</td></tr>
 <tr>
 <td title='resrassuredTests.LogoutTest.testLogoutWithoutToken()'><b>testLogoutWithoutToken</b><br>Test class: resrassuredTests.LogoutTest<br>Test method: TC02: Verify logout behavior without token</td>
 <td></td>
 <td>0</td>
-<td>resrassuredTests.LogoutTest@692f203f</td></tr>
+<td>resrassuredTests.LogoutTest@667a738</td></tr>
+<tr>
+<td title='resrassuredTests.LoginTest.testInvalidMethod()'><b>testInvalidMethod</b><br>Test class: resrassuredTests.LoginTest<br>Test method: TC04: Verify login fails with invalid HTTP method (GET)</td>
+<td></td>
+<td>0</td>
+<td>resrassuredTests.LoginTest@4c40b76e</td></tr>
+<tr>
+<td title='resrassuredTests.LoginTest.testInvalidCredentials()'><b>testInvalidCredentials</b><br>Test class: resrassuredTests.LoginTest<br>Test method: TC03: Verify login fails with incorrect credentials</td>
+<td></td>
+<td>0</td>
+<td>resrassuredTests.LoginTest@4c40b76e</td></tr>
 <tr>
 <td title='resrassuredTests.LogoutTest.testLogoutWithInvalidToken()'><b>testLogoutWithInvalidToken</b><br>Test class: resrassuredTests.LogoutTest<br>Test method: TC03: Verify logout behavior with invalid token</td>
 <td></td>
 <td>0</td>
-<td>resrassuredTests.LogoutTest@692f203f</td></tr>
+<td>resrassuredTests.LogoutTest@667a738</td></tr>
 <tr>
 <td title='resrassuredTests.LogoutTest.testLogoutWithPostMethod()'><b>testLogoutWithPostMethod</b><br>Test class: resrassuredTests.LogoutTest<br>Test method: TC05: Verify logout with invalid HTTP method</td>
 <td></td>
 <td>0</td>
-<td>resrassuredTests.LogoutTest@692f203f</td></tr>
+<td>resrassuredTests.LogoutTest@667a738</td></tr>
+<tr>
+<td title='resrassuredTests.LoginTest.testSuccessfulLogin_Json()'><b>testSuccessfulLogin_Json</b><br>Test class: resrassuredTests.LoginTest<br>Test method: TC02: Verify successful login (JSON)</td>
+<td></td>
+<td>0</td>
+<td>resrassuredTests.LoginTest@4c40b76e</td></tr>
+<tr>
+<td title='resrassuredTests.LogoutTest.testDoubleLogout()'><b>testDoubleLogout</b><br>Test class: resrassuredTests.LogoutTest<br>Test method: TC04: Verify logout behavior with an already used token (Double Logout)</td>
+<td></td>
+<td>0</td>
+<td>resrassuredTests.LogoutTest@667a738</td></tr>
+<tr>
+<td title='resrassuredTests.LogoutTest.testSuccessfulLogout()'><b>testSuccessfulLogout</b><br>Test class: resrassuredTests.LogoutTest<br>Test method: TC01: Verify successful logout with valid token</td>
+<td></td>
+<td>0</td>
+<td>resrassuredTests.LogoutTest@667a738</td></tr>
 </table><p>
 </body>
 </html>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-21T13:30:33 IST" name="Surefire suite" finished-at="2026-04-21T13:30:38 IST" duration-ms="5288">
+    <groups>
+    </groups>
+    <test started-at="2026-04-21T13:30:33 IST" name="Surefire test" finished-at="2026-04-21T13:30:38 IST" duration-ms="5288">
+      <class name="resrassuredTests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:resrassuredTests.LoginTest@4c40b76e]" started-at="2026-04-21T13:30:33 IST" name="setup" finished-at="2026-04-21T13:30:34 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulLogin_Form()[pri:1, instance:resrassuredTests.LoginTest@4c40b76e]" started-at="2026-04-21T13:30:34 IST" name="testSuccessfulLogin_Form" description="TC01: Verify successful login (Form)" finished-at="2026-04-21T13:30:36 IST" duration-ms="2460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin_Form -->
+        <test-method signature="testSuccessfulLogin_Json()[pri:2, instance:resrassuredTests.LoginTest@4c40b76e]" started-at="2026-04-21T13:30:36 IST" name="testSuccessfulLogin_Json" description="TC02: Verify successful login (JSON)" finished-at="2026-04-21T13:30:36 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin_Json -->
+        <test-method signature="testInvalidCredentials()[pri:3, instance:resrassuredTests.LoginTest@4c40b76e]" started-at="2026-04-21T13:30:36 IST" name="testInvalidCredentials" description="TC03: Verify login fails with incorrect credentials" finished-at="2026-04-21T13:30:37 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidCredentials -->
+        <test-method signature="testInvalidMethod()[pri:4, instance:resrassuredTests.LoginTest@4c40b76e]" started-at="2026-04-21T13:30:37 IST" name="testInvalidMethod" description="TC04: Verify login fails with invalid HTTP method (GET)" finished-at="2026-04-21T13:30:37 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidMethod -->
+        <test-method signature="testResponseTime()[pri:5, instance:resrassuredTests.LoginTest@4c40b76e]" started-at="2026-04-21T13:30:37 IST" name="testResponseTime" description="TC05: Performance - Response Time" finished-at="2026-04-21T13:30:37 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTime -->
+      </class> <!-- resrassuredTests.LoginTest -->
+      <class name="resrassuredTests.LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:resrassuredTests.LogoutTest@667a738]" started-at="2026-04-21T13:30:37 IST" name="setup" finished-at="2026-04-21T13:30:37 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulLogout()[pri:1, instance:resrassuredTests.LogoutTest@667a738]" started-at="2026-04-21T13:30:37 IST" name="testSuccessfulLogout" description="TC01: Verify successful logout with valid token" finished-at="2026-04-21T13:30:37 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogout -->
+        <test-method signature="testLogoutWithoutToken()[pri:2, instance:resrassuredTests.LogoutTest@667a738]" started-at="2026-04-21T13:30:37 IST" name="testLogoutWithoutToken" description="TC02: Verify logout behavior without token" finished-at="2026-04-21T13:30:38 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutWithoutToken -->
+        <test-method signature="testLogoutWithInvalidToken()[pri:3, instance:resrassuredTests.LogoutTest@667a738]" started-at="2026-04-21T13:30:38 IST" name="testLogoutWithInvalidToken" description="TC03: Verify logout behavior with invalid token" finished-at="2026-04-21T13:30:38 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutWithInvalidToken -->
+        <test-method signature="testDoubleLogout()[pri:4, instance:resrassuredTests.LogoutTest@667a738]" started-at="2026-04-21T13:30:38 IST" name="testDoubleLogout" description="TC04: Verify logout behavior with an already used token (Double Logout)" finished-at="2026-04-21T13:30:38 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoubleLogout -->
+        <test-method signature="testLogoutWithPostMethod()[pri:5, instance:resrassuredTests.LogoutTest@667a738]" started-at="2026-04-21T13:30:38 IST" name="testLogoutWithPostMethod" description="TC05: Verify logout with invalid HTTP method" finished-at="2026-04-21T13:30:38 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutWithPostMethod -->
+      </class> <!-- resrassuredTests.LogoutTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
