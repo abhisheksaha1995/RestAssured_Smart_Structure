@@ -1,41 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-19T17:27:28 IST" name="Default suite" finished-at="2026-03-19T17:27:32 IST" duration-ms="3901">
+  <suite started-at="2026-04-21T13:35:23 IST" name="Default suite" finished-at="2026-04-21T13:35:28 IST" duration-ms="4881">
     <groups>
     </groups>
-    <test started-at="2026-03-19T17:27:28 IST" name="Default test" finished-at="2026-03-19T17:27:32 IST" duration-ms="3901">
-      <class name="resrassuredTests.BanenerAPI">
-        <test-method signature="getBanners_ContentType()[pri:0, instance:resrassuredTests.BanenerAPI@55141def]" started-at="2026-03-19T17:27:28 IST" name="getBanners_ContentType" finished-at="2026-03-19T17:27:30 IST" duration-ms="1851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBanners_ContentType -->
-        <test-method signature="getBanners_EmptyToken()[pri:0, instance:resrassuredTests.BanenerAPI@55141def]" started-at="2026-03-19T17:27:30 IST" name="getBanners_EmptyToken" finished-at="2026-03-19T17:27:31 IST" duration-ms="966" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBanners_EmptyToken -->
-        <test-method signature="getBanners_NoAuthHeader()[pri:0, instance:resrassuredTests.BanenerAPI@55141def]" started-at="2026-03-19T17:27:31 IST" name="getBanners_NoAuthHeader" finished-at="2026-03-19T17:27:31 IST" duration-ms="141" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBanners_NoAuthHeader -->
-        <test-method signature="getBanners_ResponseTime()[pri:0, instance:resrassuredTests.BanenerAPI@55141def]" started-at="2026-03-19T17:27:31 IST" name="getBanners_ResponseTime" finished-at="2026-03-19T17:27:32 IST" duration-ms="526" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBanners_ResponseTime -->
-        <test-method signature="getBanners_StatusCode()[pri:0, instance:resrassuredTests.BanenerAPI@55141def]" started-at="2026-03-19T17:27:32 IST" name="getBanners_StatusCode" finished-at="2026-03-19T17:27:32 IST" duration-ms="162" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBanners_StatusCode -->
-        <test-method signature="getBanners_Unauthorized()[pri:0, instance:resrassuredTests.BanenerAPI@55141def]" started-at="2026-03-19T17:27:32 IST" name="getBanners_Unauthorized" finished-at="2026-03-19T17:27:32 IST" duration-ms="151" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getBanners_Unauthorized -->
-        <test-method signature="setup()[pri:0, instance:resrassuredTests.BanenerAPI@55141def]" started-at="2026-03-19T17:27:32 IST" name="setup" finished-at="2026-03-19T17:27:32 IST" duration-ms="3" status="PASS">
+    <test started-at="2026-04-21T13:35:23 IST" name="Default test" finished-at="2026-04-21T13:35:28 IST" duration-ms="4881">
+      <class name="resrassuredTests.LogoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:resrassuredTests.LogoutTest@692f203f]" started-at="2026-04-21T13:35:23 IST" name="setup" finished-at="2026-04-21T13:35:27 IST" duration-ms="3199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-      </class> <!-- resrassuredTests.BanenerAPI -->
+        <test-method signature="testSuccessfulLogout()[pri:1, instance:resrassuredTests.LogoutTest@692f203f]" started-at="2026-04-21T13:35:27 IST" name="testSuccessfulLogout" description="TC01: Verify successful logout with valid token" finished-at="2026-04-21T13:35:27 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogout -->
+        <test-method signature="testLogoutWithoutToken()[pri:2, instance:resrassuredTests.LogoutTest@692f203f]" started-at="2026-04-21T13:35:27 IST" name="testLogoutWithoutToken" description="TC02: Verify logout behavior without token" finished-at="2026-04-21T13:35:27 IST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutWithoutToken -->
+        <test-method signature="testLogoutWithInvalidToken()[pri:3, instance:resrassuredTests.LogoutTest@692f203f]" started-at="2026-04-21T13:35:27 IST" name="testLogoutWithInvalidToken" description="TC03: Verify logout behavior with invalid token" finished-at="2026-04-21T13:35:27 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutWithInvalidToken -->
+        <test-method signature="testDoubleLogout()[pri:4, instance:resrassuredTests.LogoutTest@692f203f]" started-at="2026-04-21T13:35:27 IST" name="testDoubleLogout" description="TC04: Verify logout behavior with an already used token (Double Logout)" finished-at="2026-04-21T13:35:28 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDoubleLogout -->
+        <test-method signature="testLogoutWithPostMethod()[pri:5, instance:resrassuredTests.LogoutTest@692f203f]" started-at="2026-04-21T13:35:28 IST" name="testLogoutWithPostMethod" description="TC05: Verify logout with invalid HTTP method" finished-at="2026-04-21T13:35:28 IST" duration-ms="418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutWithPostMethod -->
+      </class> <!-- resrassuredTests.LogoutTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

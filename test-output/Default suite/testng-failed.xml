@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="resrassuredTests.BanenerAPI">
+      <class name="resrassuredTests.LogoutTest">
         <methods>
-          <include name="getBanners_EmptyToken"/>
+          <include name="testLogoutWithoutToken"/>
+          <include name="testDoubleLogout"/>
+          <include name="setup"/>
+          <include name="testLogoutWithInvalidToken"/>
         </methods>
-      </class> <!-- resrassuredTests.BanenerAPI -->
+      </class> <!-- resrassuredTests.LogoutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
